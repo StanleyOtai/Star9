@@ -1,0 +1,232 @@
+@media only screen and (max-width: 767px){
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: whitesmoke;
+}  
+ .header{
+   font-family: Verdana;
+   border: 1px solid darkblue;
+   background-color: darkblue;
+   color: white;
+   font-size: 21px;
+   margin-bottom: 2px;
+ }
+  h3{
+    font-size: 30px;
+    text-align: center;
+    color: darkblue;
+    
+  }
+  marquee{
+    margin-top: 6px;
+    border: 1px solid white;
+    border-radius: 100px 100px 100px 100px;
+    font-size: 20px;
+    padding: 5px;
+    background-color: lightcyan;
+    box-shadow: 2px 2px 3px grey;
+    margin-bottom: 4px;
+  }
+  
+  ul{
+    margin-top: 2px;
+    border: 1px solid lightcyan;
+    background-color: lightcyan;
+  }
+  
+  .Parent{
+    border: 1px solid white;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 3px grey;
+  }
+  
+.child{
+  width: 270px;
+  margin: 5px;
+  margin-left: 15px;
+  border: 1px solid lightcyan;
+  padding: 10px;
+  background-color: lightcyan;
+  box-shadow: 2px 3px 3px grey;
+  border-radius: 20px 20px 20px 20px;
+} 
+  
+  button{
+    margin: 7px;
+    margin-left: 50px;
+    width: 180px;
+    height: 50px;
+    border-radius: 100px 100px 100px 100px;
+    box-shadow: 2px 3px 3px grey;
+    background-color: lightcyan;
+  }
+li{
+  display: block;
+}  
+  
+  a{
+    text-decoration: none;
+    font-size: 20px;
+   color: black; 
+  }
+  a:hover{
+    color: black;
+    cursor: pointer;
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+   transition: 3s;
+  }
+  
+  .About{
+    border: 1px solid lightcyan;
+    background-color: lightcyan;
+    margin-top: 5px;
+    margin-bottom:  5px;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 2px 3px 3px grey;
+  }
+  
+  .contact{
+    padding: 8px;
+    margin-top: 7px;
+    border: 1px solid;
+  margin-bottom: 50px;  
+    background-color: darkslateblue;
+    color: white;
+  }
+  
+  footer{
+    border: 1px solid darkblue;
+    background-color: darkblue;
+   padding: 10px;
+    bottom: 0px;
+    position: fixed;
+    width: 96%;
+    color: white;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: whitesmoke;
+}  
+ .header{
+   font-family: Verdana;
+   border: 1px solid darkgreen;
+   background-color: darkgreen;
+   color: white;
+   font-size: 60px;
+   margin-bottom: 2px;
+ }
+  h3{
+    font-size: 60px;
+    text-align: center;
+    color: darkgreen;
+    
+  }
+  marquee{
+    margin-top: 6px;
+    border: 1px solid white;
+    border-radius: 100px 100px 100px 100px;
+    font-size: 50px;
+    padding: 20px;
+    background-color: lightgreen;
+    box-shadow: 2px 2px 3px grey;
+    margin-bottom: 4px;
+  }
+  
+  ul{
+    margin-top: 2px;
+    border: 1px solid lightcyan;
+    background-color: lightcyan;
+  }
+  
+  .Parent{
+    border: 1px solid white;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 3px grey;
+  }
+  
+.child{
+  width: 870px;
+  margin: 5px;
+  margin-left: 30px;
+  border: 1px solid lightcyan;
+  padding: 10px;
+  background-color: lightcyan;
+  box-shadow: 2px 3px 3px grey;
+  border-radius: 20px 20px 20px 20px;
+} 
+  
+  button{
+    margin: 7px;
+    margin-left: 120px;
+    width: 600px;
+    height: 120px;
+    border-radius: 100px 100px 100px 100px;
+    box-shadow: 2px 3px 3px grey;
+    background-color: lightcyan;
+    
+  }
+li{
+  display: block;
+}  
+  
+  a{
+    text-decoration: none;
+    font-size: 60px;
+   color: black; 
+  }
+  a:hover{
+    color: black;
+    cursor: pointer;
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+   transition: 3s;
+  }
+  
+  .About{
+    font-size: 60px;
+    border: 1px solid lightcyan;
+    background-color: lightcyan;
+    margin-top: 5px;
+    margin-bottom:  5px;
+    padding: 30px;
+    text-align: justify;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 2px 3px 3px grey;
+  }
+  
+  .contact{
+    padding: 8px;
+    margin-top: 7px;
+    border: 1px solid;
+  margin-bottom: 160px;  
+    background-color: darkgreen;
+    color: white;
+    font-size: 50px;
+  }
+  
+  footer{
+    border: 1px solid darkgreen;
+    background-color: darkgreen;
+   padding: 30px;
+    bottom: 0px;
+    position: fixed;
+    width: 96%;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+  }
+  
+}
